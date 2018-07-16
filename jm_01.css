@@ -1,0 +1,117 @@
+/*rgb(83, 213, 241)*/
+
+body {
+	font-family: Garamond, Georgia, serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	--tone: rgb(43, 87, 151);
+	--dark: rgb(5, 5, 5);
+	--light: rgb(209, 209, 209);
+	--textsize: 1.3em;
+
+}
+
+h1 {
+	text-align: center;
+	margin: 0 auto;
+	padding: 20 10vw;
+	font-size: 4em;
+	color: white;
+	background-color: var(--tone);
+}
+
+@media only screen and (max-width: 1000px) {
+	h1 {
+		font-size: 3em
+	}
+	
+}
+
+h2 {
+	text-align: center;
+	margin: 30 auto;
+	font-size: 3em;
+	color: var(--tone);
+	background-color: white;
+}
+
+p {
+	width: 85%;
+	max-width: 1400px;
+	color: var(--dark);
+	background-color: white;
+	font-size: var(--textsize);
+	text-align: center;
+	margin: 20 auto;
+	overflow: hidden;
+}
+
+.box {
+	width: 300px;
+	margin: 40vh 40px 0;
+	padding: 20px;
+	text-align: left;
+	font-size: var(--textsize);
+	color: white;
+	background-color: var(--tone);
+	opacity: 0.75;
+	float: left;
+}
+
+.comment-box {
+	width: 400px;
+	height: inherit;
+	padding: 20px;
+	text-align: justify;
+	font-size: var(--textsize);
+	color: white;
+	background-color: var(--tone);
+	opacity: 0.75;
+	float: left;
+	display: table;
+}
+.comment {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: auto;
+	max-width: 400;
+	padding: 7px;
+	background-color: var(--dark);
+	color: white;
+	font-size: 1em;
+	opacity:0.6;
+}
+
+.stationary {
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.special {
+	width: 100%;
+	height: 18vw;
+	background-image: url("JOHMO.jpg");
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+}
+
+/* Image data and other stuff that's not important */
+
+#bigboy {background-image: url("JOHMO.jpg");}
+#uniform {background-image: url("army.jpg");}
+#battle {background-image: url("hamel.jpg")}
+#map {background-image: url("map.jpg")}
+#sec {background-image: url("SEC.jpg")}
