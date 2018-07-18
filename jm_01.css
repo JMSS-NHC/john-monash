@@ -86,7 +86,19 @@ p {
 	background-color: var(--dark);
 	color: white;
 	font-size: 1em;
-	opacity:0.6;
+	opacity: 0.6;
+}
+
+.timeline {
+	width: auto;
+	color: var(--dark);
+	background-color: white;
+	font-size: var(--textsize);
+}
+.liner {
+	width: 0 20px;
+	background-color: var(--tone);
+	
 }
 
 .stationary {
