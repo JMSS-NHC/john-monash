@@ -1,5 +1,3 @@
-/*rgb(83, 213, 241)*/
-
 body {
 	font-family: Garamond, Georgia, serif;
 	width: 100%;
@@ -46,6 +44,9 @@ p {
 	margin: 20 auto;
 	overflow: hidden;
 }
+a {
+	text-decoration: none;
+}
 
 .box {
 	width: 300px;
@@ -91,15 +92,82 @@ p {
 
 .timeline {
 	width: auto;
+	padding: 20 20 20 80;
 	color: var(--dark);
 	background-color: white;
 	font-size: var(--textsize);
+	position: relative;
+}
+
+.timelinelink {
+	width: auto;
+	padding: 20 20 20 80;
+	color: var(--dark);
+	background-color: white;
+	font-size: var(--textsize);
+	position: relative;
+	-webkit-transition: background-color 0.5s ease-out;
+ 	-moz-transition: background-color 0.5s ease-out;
+  	-o-transition: background-color 0.5s ease-out;
+  	transition: background-color 0.5s ease-out;
+}
+
+.timelinelink:hover {
+  	background-color: rgb(235, 235, 235);
+ 	cursor: pointer;
+}
+
+.timelinenull {
+	width: auto;
+	height: 50px;
+	padding: 20 20 20 80;
+	color: var(--dark);
+	background-color: white;
+	font-size: var(--textsize);
+	position: relative;
 }
 .liner {
-	left: 20px;
-	width: 0 20px;
+	left: 30px;
+	top: 0;
+	height: 100%;
+	width: 16px;
 	background-color: var(--tone);
 	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	position: absolute;
+}
+.linerstart {
+	left: 30px;
+	bottom: 0;
+	height: 50%;
+	width: 16px;
+	background-color: var(--tone);
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	position: absolute;
+}
+.linerend {
+	left: 30px;
+	top: 0;
+	height: 50%;
+	width: 16px;
+	background-color: var(--tone);
+	vertical-align: middle;
+	float: left;
+	display: inline-block;
+	position: absolute;
+}
+.dot {
+	left:18px;
+	top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: var(--tone);
+    display: inline-block;
+    position: absolute;
 }
 
 .stationary {
