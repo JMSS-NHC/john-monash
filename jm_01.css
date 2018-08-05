@@ -25,7 +25,6 @@ h1 {
 	}
 	
 }
-
 h2 {
 	text-align: center;
 	margin: 30 auto;
@@ -33,7 +32,6 @@ h2 {
 	color: var(--tone);
 	background-color: white;
 }
-
 p {
 	width: 85%;
 	max-width: 1400px;
@@ -46,6 +44,11 @@ p {
 }
 a {
 	text-decoration: none;
+}
+img {
+	display: inline;
+	height: auto;
+	width: auto;
 }
 
 .box {
