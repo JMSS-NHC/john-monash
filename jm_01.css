@@ -43,6 +43,7 @@ p {
 	overflow: hidden;
 }
 p #footnote {font-size: 0.7}
+p #mid {text-align: center;}
 
 a {
 	text-decoration: none;
@@ -57,7 +58,7 @@ img {
 
 .box {
 	width: 300px;
-	margin: 40vh 2.5vw 0;
+	margin: 10% 2.5vw 0;
 	padding: 20px;
 	text-align: left;
 	font-size: var(--textsize);
@@ -69,7 +70,7 @@ img {
 
 .comment-box {
 	width: 350px;
-	height: inherit;
+	height: 100%;
 	padding: 20px;
 	text-align: justify;
 	font-size: var(--textsize);
@@ -97,11 +98,20 @@ img {
 	opacity: 0.6;
 }
 
-.timeline {
-	width: auto;
-	padding: 20 20 20 80;
+.quote {
+	width: 60%;
+	max-width: 1400px;
 	color: var(--dark);
 	background-color: white;
+	font-size: 1.7em;
+	text-align: justify;
+	margin: 20 auto;
+	overflow: hidden;
+}
+
+.timeline {
+	padding: 20 20 20 80;
+	color: var(--dark);
 	font-size: var(--textsize);
 	position: relative;
 }
@@ -111,12 +121,13 @@ img {
 	padding: 20 20 20 80;
 	color: var(--dark);
 	background-color: white;
+	font-weight: bold;
 	font-size: var(--textsize);
 	position: relative;
-	-webkit-transition: background-color 0.5s ease-out;
- 	-moz-transition: background-color 0.5s ease-out;
-  	-o-transition: background-color 0.5s ease-out;
-  	transition: background-color 0.5s ease-out;
+	-webkit-transition: background-color 0.3s ease-out;
+ 	-moz-transition: background-color 0.3s ease-out;
+  	-o-transition: background-color 0.3s ease-out;
+  	transition: background-color 0.3s ease-out;
 }
 
 .timelinelink:hover {
@@ -176,7 +187,7 @@ img {
 }
 
 .stationary {
-    height: 100%;
+    height: 70%;
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -198,7 +209,7 @@ img {
 #bigboy {background-image: url("JOHMO.jpg");}
 #uniform {background-image: url("army.jpg");}
 #battle {background-image: url("hamel.jpg")}
-#map {background-image: url("map.jpg")}
+#mapl {background-image: url("maplines.png")}
 #sec {background-image: url("SEC.jpg")}
 
 #news {background-image: url("newspaper.png")}
@@ -209,3 +220,4 @@ img {
 #rawxd {background-image: url("Rawlinson.jpg");}
 #corp {background-image: url("johnmonandco.jpg");}
 #fun {background-image: url("funeral.png");}
+#think {background-image: url("sirjohn.jpg");}
