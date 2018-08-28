@@ -43,7 +43,6 @@ p {
 	overflow: hidden;
 }
 p #footnote {font-size: 0.7}
-p #mid {text-align: center;}
 
 a {
 	text-decoration: none;
@@ -120,7 +119,6 @@ img {
 	width: auto;
 	padding: 20 20 20 80;
 	color: var(--dark);
-	background-color: white;
 	font-weight: bold;
 	font-size: var(--textsize);
 	position: relative;
@@ -210,7 +208,9 @@ img {
 #uniform {background-image: url("army.jpg");}
 #battle {background-image: url("hamel.jpg")}
 #mapl {background-image: url("maplines.png")}
+#mapr {background-image: url("soldiers.png");}
 #sec {background-image: url("SEC.jpg")}
+#ext {background-image: url("ext1.png");}
 
 #news {background-image: url("newspaper.png")}
 #company {background-image: url("monashandfriends.JPG");}
